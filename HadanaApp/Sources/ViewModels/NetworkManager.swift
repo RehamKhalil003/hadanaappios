@@ -4,7 +4,7 @@ class NetworkManager {
     static let shared = NetworkManager()
 
     // ⚠️ للتيست على جهاز حقيقي: غيّر لـ IP الماك مثل "http://192.168.1.x:8000/api"
-    private let baseURL = "http://192.168.100.224:8000/api"
+    private let baseURL = "https://carnation-suitcase-bulgur.ngrok-free.dev/api"
     private let tokenKey = "auth_token"
 
     var token: String? {
