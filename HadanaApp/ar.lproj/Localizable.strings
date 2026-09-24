@@ -1,0 +1,17 @@
+/* Login */
+"academy_name_ar" = "أكاديمية المشهد للعقول النيرة";
+"academy_name_en" = "Al Mashhad Academy for Bright Minds";
+"welcome" = "مرحباً بك";
+"login_subtitle" = "سجّل دخولك للمتابعة";
+"phone_label" = "رقم الهاتف";
+"phone_placeholder" = "05XXXXXXXX";
+"password_label" = "كلمة المرور";
+"password_placeholder" = "أدخل كلمة المرور";
+"login_button" = "تسجيل الدخول";
+"forgot_password" = "نسيت كلمة المرور؟";
+"forgot_password_title" = "استعادة كلمة المرور";
+"forgot_password_message" = "سيتم إرسال رابط استعادة كلمة المرور إلى رقم هاتفك المسجل.";
+"cancel" = "إلغاء";
+"confirm" = "تأكيد";
+"logout" = "تسجيل الخروج";
+"welcome_home" = "مرحباً بك في تطبيق الحضانة";

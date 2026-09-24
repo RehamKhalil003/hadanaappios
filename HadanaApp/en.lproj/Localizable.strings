@@ -1,0 +1,17 @@
+/* Login */
+"academy_name_ar" = "أكاديمية المشهد للعقول النيرة";
+"academy_name_en" = "Al Mashhad Academy for Bright Minds";
+"welcome" = "Welcome";
+"login_subtitle" = "Sign in to continue";
+"phone_label" = "Phone Number";
+"phone_placeholder" = "05XXXXXXXX";
+"password_label" = "Password";
+"password_placeholder" = "Enter your password";
+"login_button" = "Sign In";
+"forgot_password" = "Forgot Password?";
+"forgot_password_title" = "Password Recovery";
+"forgot_password_message" = "A password reset link will be sent to your registered phone number.";
+"cancel" = "Cancel";
+"confirm" = "Confirm";
+"logout" = "Sign Out";
+"welcome_home" = "Welcome to the Nursery App";
