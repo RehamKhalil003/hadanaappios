@@ -10,8 +10,8 @@ enum AuthState {
 
 @MainActor
 class AuthViewModel: ObservableObject {
-    private static let defaultPhone = "0799709164"
-    private static let defaultPassword = "password123"
+    private static let defaultPhone = ""
+    private static let defaultPassword = ""
 
     @Published var authState: AuthState = .loggedOut
     @Published var phoneNumber: String = AuthViewModel.defaultPhone
