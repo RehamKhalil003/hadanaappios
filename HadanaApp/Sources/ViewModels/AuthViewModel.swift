@@ -218,6 +218,10 @@ class AuthViewModel: ObservableObject {
         sessionsByChild.values.flatMap { $0 }.first { $0.id == id }
     }
 
+    func childId(forSessionId sessionId: Int) -> Int? {
+        sessionsByChild.first(where: { $0.value.contains { $0.id == sessionId } })?.key
+    }
+
     // MARK: - Deep Link من الإشعار
 
     func handleNotificationTap(type: String, sessionId: String) {

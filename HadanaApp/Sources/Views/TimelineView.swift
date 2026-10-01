@@ -467,7 +467,13 @@ struct SessionDetailView: View {
         .fullScreenCover(item: $fullScreenMedia) { item in
             FullScreenMediaViewer(url: item.url, isVideo: item.isVideo) { fullScreenMedia = nil }
         }
-        .onAppear { refreshSession() }
+        .onAppear {
+            Task {
+                if let childId = authVM.childId(forSessionId: session.sessionId) {
+                    await authVM.loadSessions(for: childId)
+                }
+            }
+        }
         .onChange(of: authVM.sessionsByChild) { _, _ in refreshSession() }
     }
 
